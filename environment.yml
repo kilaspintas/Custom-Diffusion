@@ -1,0 +1,13 @@
+name: IPEX
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip:
+    - huggingface-hub==0.23.3
+    - diffusers==0.28.0
+    - transformers==4.41.2
+    - accelerate==0.31.0
+    - safetensors==0.4.3
+    - gradio[cli]==3.50.2
+    - Pillow==10.3.0
