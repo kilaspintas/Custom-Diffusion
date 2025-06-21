@@ -50,11 +50,11 @@ After the first-time installation is complete, for every subsequent use:
 ```
 YOUR_PROJECT_FOLDER/
 │
-├── app.py # Contains the user interface code (Gradio)
+├── app.py 
 ├── backend
-	└── backend_core.py # Contains all core logic (model loading, inference)
-├── environment.yml # The "recipe" for standard dependencies in the Conda environment
-├── start.bat # The main script for setup and running the application
+	└── backend_core.py 
+├── environment.yml 
+├── start.bat 
 │
 └── model/ # Folder to place all your .safetensors files
 	├── custom_model_1.safetensors
