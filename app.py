@@ -35,8 +35,8 @@ with gr.Blocks(theme='soft', css="footer {display: none !important}") as demo:
         with gr.Column(scale=1):
             with gr.Group():
                 gr.Markdown("<h3 style='text-align: center;'>2. Configuration & Prompts</h3>")
-                prompt = gr.Textbox(label="Prompt", lines=3, placeholder="masterpiece, best quality, 1girl...")
-                negative_prompt = gr.Textbox(label="Negative Prompt", lines=2, placeholder="low quality, blurry, bad hands...")
+                prompt = gr.Textbox(label="Prompt", lines=3, placeholder="...")
+                negative_prompt = gr.Textbox(label="Negative Prompt", lines=2, placeholder="l...")
                 
                 sampler_dropdown = gr.Dropdown(
                     label="Sampling Method",
