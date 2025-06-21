@@ -10,7 +10,6 @@ A simple and powerful Gradio interface application for generating images using c
 * **Full Control**: Adjust Steps, Guidance Scale (CFG), Image Size (Width & Height), Seed, and Clip Skip.
 * **Sampler Selection**: Choose from popular samplers like DPM++ 2M Karras, Euler a, and LCM for different artistic styles.
 * **Automated Setup**: Comes with a `start.bat` script that automatically prepares the Conda environment and all necessary dependencies.
-* **Portable**: All components, including downloaded models, are stored within the project folder, making it easy to move.
 
 ## System Requirements
 
