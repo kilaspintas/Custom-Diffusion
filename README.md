@@ -47,13 +47,16 @@ After the first-time installation is complete, for every subsequent use:
 * The script will automatically detect that the environment already exists, activate it, and launch the Gradio interface.
 
 ## Project Folder Structure
+```
 YOUR_PROJECT_FOLDER/
 │
-├── app.py              # Contains the user interface code (Gradio)
-├── backend_core.py     # Contains all core logic (model loading, inference)
-├── environment.yml     # The "recipe" for standard dependencies in the Conda environment
-├── start.bat           # The main script for setup and running the application
+├── app.py # Contains the user interface code (Gradio)
+├── backend
+	└── backend_core.py # Contains all core logic (model loading, inference)
+├── environment.yml # The "recipe" for standard dependencies in the Conda environment
+├── start.bat # The main script for setup and running the application
 │
-└── model/              # Folder to place all your .safetensors files
-    ├── custom_model_1.safetensors
-    └── custom_model_2.safetensors
+└── model/ # Folder to place all your .safetensors files
+	├── custom_model_1.safetensors
+	└── custom_model_2.safetensors
+```
