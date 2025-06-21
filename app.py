@@ -20,7 +20,7 @@ with gr.Blocks(theme='soft', css="footer {display: none !important}") as demo:
     
     with gr.Row():
         with gr.Group():
-            gr.Markdown("<h3 style='text-align: center;'>1. Load Model from List</h3>")
+            gr.Markdown("<h3 style='text-align: center;'>Load Model from List</h3>")
             with gr.Row():
                 checkpoint_dropdown = gr.Dropdown(
                     label="Select Model from 'model' folder",
@@ -34,9 +34,9 @@ with gr.Blocks(theme='soft', css="footer {display: none !important}") as demo:
     with gr.Row(variant='panel'):
         with gr.Column(scale=1):
             with gr.Group():
-                gr.Markdown("<h3 style='text-align: center;'>2. Configuration & Prompts</h3>")
+                gr.Markdown("<h3 style='text-align: center;'>Configuration & Prompts</h3>")
                 prompt = gr.Textbox(label="Prompt", lines=3, placeholder="...")
-                negative_prompt = gr.Textbox(label="Negative Prompt", lines=2, placeholder="l...")
+                negative_prompt = gr.Textbox(label="Negative Prompt", lines=2, placeholder="...")
                 
                 sampler_dropdown = gr.Dropdown(
                     label="Sampling Method",
@@ -65,7 +65,7 @@ with gr.Blocks(theme='soft', css="footer {display: none !important}") as demo:
 
         with gr.Column(scale=2):
             with gr.Group():
-                gr.Markdown("<h3 style='text-align: center;'>3. Result Image & Info</h3>")
+                gr.Markdown("<h3 style='text-align: center;'>Result Image & Info</h3>")
                 output_image = gr.Image(label="Output", type="pil")
                 gen_status_text = gr.Markdown("Status: Awaiting command...")
 
